@@ -6,8 +6,47 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Gajraj One";
+    src: url("/fonts/GajrajOne-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Overpass";
+    src: url("/fonts/Overpass-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Passion One";
+    src: url("/fonts/PassionOne-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --color-principal: rgb(47, 43, 140, 75%);
+    --color-secundaria: #D504D9;
+    --color-terciaria: #034C8C;
+    --color-hover: #4EBFFF;
+
+    --font-principal: "Gajraj One", sans-serif;
+    --font-secundaria: "Overpass", sans-serif;
+    --font-terciaria: "Passion One", sans-serif;
+}
 body {
     background-image: url("/img/fundo.jpg");
     background-repeat: no-repeat;
     background-position: center top;
+    padding-top: 2%;
+}
+
+main {
+    background-color: var(--color-principal);
+    width: 650px;
+    height: 680px;;
+    margin: auto;
 }
