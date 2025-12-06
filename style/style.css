@@ -28,9 +28,9 @@
 }
 
 :root {
-    --color-principal: rgb(47, 43, 140, 75%);
-    --color-secundaria: #D504D9;
-    --color-terciaria: #034C8C;
+    --color-fundo: rgb(47, 43, 140, 75%);
+    --color-principal: #D504D9;
+    --color-secundaria: #034C8C;
     --color-hover: #4EBFFF;
 
     --font-principal: "Gajraj One", sans-serif;
@@ -45,8 +45,38 @@ body {
 }
 
 main {
-    background-color: var(--color-principal);
+    background-color: var(--color-fundo);
     width: 650px;
-    height: 680px;;
-    margin: auto;
+    height: 580px;;
+    margin: 40px auto;
+    border-radius: 20px;
+}
+
+section {
+    padding: 40px 35px;
+}
+
+h1 {
+    font-family: var(--font-principal);
+    font-size: 55px;
+    color: var(--color-principal);
+}
+hr {
+    width: 80%;
+    border: 2px solid var(--color-principal);
+}
+
+label {
+    font-family: var(--font-terciaria);
+    font-size: 35px;
+    color: var(--color-principal);
+    margin-top: 29px;
+    display: block;
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 45%;
+    height: 20px;
+    margin-top: 15px;
 }
