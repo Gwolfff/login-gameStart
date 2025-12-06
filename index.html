@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tela de login para o site gameStart">
+    <meta name="description" content="Tela de login para o site GameStart, onde os usuários podem acessar suas contas para aproveitar jogos e conteúdos exclusivos.">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
     <link rel="stylesheet" href="style/style.css">
-    <title>Link - GameStart</title>
+    <title>GameStart - Login</title>
 </head>
 <body>
     <main>
         <section>
-            
+            <h1>Faça seu login</h1>
+            <hr>
+            <form method="get">
+                <label for="email">Seu Email:</label><br>
+                <input type="email" name="userEmail" id="email" required>
+                <br>
+                <label for="password">Sua senha:</label><br>
+                <input type="password" name="userPassword" id="password" required>
+            </form>
         </section>
+        <button type="submit" aria-label="Tela de login para entrar no site GameStart">Entrar</button>
+        <p>Esqueceu sua senha? <a href="#" title="Link para levar para outra tela que poderar recuperar a senha">Clique aqui</a></p>
     </main>
 </body>
 </html>
