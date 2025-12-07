@@ -82,3 +82,39 @@ input[type="password"] {
     padding: 4px;
     border: none;
 }
+
+button {
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto 30px auto;
+    border: 1px solid var(--color-hover);
+    background-color: var(--color-principal);
+    color: var(--color-hover);
+}
+
+button:hover {
+    background-color: var(--color-hover);
+    color: var(--color-principal);
+    border: 1px solid var(--color-principal);
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    font-family: var(--font-secundaria);
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--color-principal);
+}
+
+p a {
+    text-decoration: none;
+    color: var(--color-hover);
+}
+
+p a:hover {
+    color: var(--color-principal);
+}
