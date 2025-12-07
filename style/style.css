@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: "Gajraj One";
-    src: url("/fonts/GajrajOne-Regular.ttf") format("truetype");
+    src: url("../fonts/GajrajOne-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
