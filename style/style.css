@@ -113,6 +113,3 @@ p a {
     color: var(--color-hover);
 }
 
-p a:hover {
-    color: var(--color-principal);
-}
